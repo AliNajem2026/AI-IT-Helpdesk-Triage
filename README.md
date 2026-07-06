@@ -96,6 +96,13 @@ Fixed category and priority vocabularies keep downstream routing deterministic �
 3. **Update addresses** — replace the placeholder `helpdesk@yourcompany.com` and `it-team@yourcompany.com`.
 4. **Activate** the workflow. Production endpoint: `POST /webhook/it-ticket`
 
+🧪 Testing
+
+Three payloads in tests/ cover the full routing matrix:
+
+Test caseExpected routeClear escalation — laptop shutting down after a drop, burning smellneeds_human: true → IT teamAmbiguous escalation — "something is wrong, nothing works"needs_human: true → IT teamHappy path — forgotten Windows passwordneeds_human: false → auto-reply to employee
+
+Example (test mode — click Listen for test event first):
 
 
 ```bash
