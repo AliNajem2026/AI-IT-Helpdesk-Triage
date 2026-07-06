@@ -6,8 +6,8 @@ An end-to-end IT support automation built with **n8n** and **Anthropic Claude**.
 ![Claude](https://img.shields.io/badge/Anthropic-Claude_API-d97706)
 ![LLM](https://img.shields.io/badge/Pattern-Human--in--the--loop-blue)
 
-<!-- Demo GIF: record the n8n execution view processing a ticket -->
-<IT_Helpdesk_Demo -->
+-- Demo GIF: record the n8n execution view processing a ticket --
+-- ![Demo](IT_Helpdesk_Demo.gif) --
 
 ---
 
