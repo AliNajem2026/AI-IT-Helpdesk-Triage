@@ -7,7 +7,7 @@ An end-to-end IT support automation built with **n8n** and **Anthropic Claude**.
 ![LLM](https://img.shields.io/badge/Pattern-Human--in--the--loop-blue)
 
 <!-- Demo GIF: record the n8n execution view processing a ticket -->
-<!-- ![Demo](docs/demo.gif) -->
+<IT_Helpdesk_Demo -->
 
 ---
 
@@ -100,7 +100,7 @@ Fixed category and priority vocabularies keep downstream routing deterministic �
 
 Three payloads in tests/ cover the full routing matrix:
 
-Test caseExpected routeClear escalation — laptop shutting down after a drop, burning smellneeds_human: true → IT teamAmbiguous escalation — "something is wrong, nothing works"needs_human: true → IT teamHappy path — forgotten Windows passwordneeds_human: false → auto-reply to employee
+Test caseExpected routeClear escalation — laptop shutting down after a drop, burning smellneeds_human: true → IT teamAmbiguous escalation — "something is wrong, nothing works"needs_human: true → IT team Happy path — forgotten Windows passwordneeds_human: false → auto-reply to employee
 
 Example (test mode — click Listen for test event first):
 
